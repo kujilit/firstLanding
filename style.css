@@ -1,0 +1,162 @@
+.main{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 16.5% 1% 16.5%;
+    font-size: 2vw;
+    border-bottom: 1px solid #070707;
+}
+
+.header nav a{
+    margin-bottom: 3%;
+    text-decoration: none;
+    color: #070707;
+    transition: all 0.3s ease-out;
+}
+
+.header nav a:hover{
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.about_text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about_title{
+    font-size: 3vw;
+}
+
+.about img{
+    width: 66%;
+    align-self: center;
+    margin-top: 2%;
+    border: 1px solid #808080;
+}
+
+.deliver{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f6f6;
+    margin-top: 5%;
+    font-size: 1.5vw;
+}
+
+.deliver_title{
+    margin-top: 1%;
+    font-size: 3vw;
+}
+
+.deliver_points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.del_points_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.del_points_column span{
+    margin-bottom: 10%;
+}
+
+.del_point{
+    margin-bottom: 5%;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5vw;
+}
+
+.price_title{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+.price_description{
+    font-size: 1.2vw;
+}
+
+.price_blocks_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.price_blocks_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.price_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.price_type{
+    font-size: 2vw;
+    margin-bottom: 1%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding-bottom: 5%;
+}
+
+.contacts_title{
+    font-size: 3vw;
+    margin: 5% 0 2% 0;
+}
+
+.contacts_phones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0 5% 0;
+}
+
+.contacts_tel{
+    text-decoration: none;
+    color: #070707;
+    font-size: 2vw;
+}
+
+.contacts_address{
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.contacts_email{
+    font-size: 2vw;
+    color: #070707;
+    text-align: center;
+}
